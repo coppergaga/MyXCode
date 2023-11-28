@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B7F56502B0C9B5F00DB8D85 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF79D772A29EA81006209C8 /* Cocoa.framework */; };
+		2B7F56542B0CA1DF00DB8D85 /* SwiftFormat in Frameworks */ = {isa = PBXBuildFile; productRef = 2B7F56532B0CA1DF00DB8D85 /* SwiftFormat */; };
+		2BAE5F702B148B2E009E7068 /* ConstValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAE5F6F2B148B2E009E7068 /* ConstValue.swift */; };
+		2BAE5F712B148B2E009E7068 /* ConstValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAE5F6F2B148B2E009E7068 /* ConstValue.swift */; };
+		2BAE639C2B14946A009E7068 /* PluginSidebarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAE639B2B14946A009E7068 /* PluginSidebarViewController.swift */; };
+		2BAE639E2B14948F009E7068 /* PluginConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAE639D2B14948F009E7068 /* PluginConfigViewController.swift */; };
+		2BAE63A12B14B4D3009E7068 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAE63A02B14B4D3009E7068 /* Toast.swift */; };
+		2BB598D12B0CD60A006BD157 /* PrettyFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB598D02B0CD60A006BD157 /* PrettyFunc.swift */; };
+		2BB598D32B0CD633006BD157 /* NewLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB598D22B0CD633006BD157 /* NewLine.swift */; };
+		2BD125F72B0F754800E38870 /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD125F62B0F754800E38870 /* MainApp.swift */; };
 		2BF79D632A29EA0C006209C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF79D622A29EA0C006209C8 /* AppDelegate.swift */; };
-		2BF79D652A29EA0C006209C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF79D642A29EA0C006209C8 /* ViewController.swift */; };
 		2BF79D672A29EA0D006209C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BF79D662A29EA0D006209C8 /* Assets.xcassets */; };
 		2BF79D6A2A29EA0D006209C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BF79D682A29EA0D006209C8 /* Main.storyboard */; };
-		2BF79D782A29EA81006209C8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF79D772A29EA81006209C8 /* Cocoa.framework */; };
 		2BF79D7D2A29EA81006209C8 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF79D7C2A29EA81006209C8 /* SourceEditorExtension.swift */; };
 		2BF79D7F2A29EA81006209C8 /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF79D7E2A29EA81006209C8 /* SourceEditorCommand.swift */; };
 		2BF79D842A29EA81006209C8 /* MyXCodeExt.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2BF79D752A29EA81006209C8 /* MyXCodeExt.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -55,9 +63,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2BAE5F6F2B148B2E009E7068 /* ConstValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstValue.swift; sourceTree = "<group>"; };
+		2BAE639B2B14946A009E7068 /* PluginSidebarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginSidebarViewController.swift; sourceTree = "<group>"; };
+		2BAE639D2B14948F009E7068 /* PluginConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginConfigViewController.swift; sourceTree = "<group>"; };
+		2BAE63A02B14B4D3009E7068 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		2BB598D02B0CD60A006BD157 /* PrettyFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrettyFunc.swift; sourceTree = "<group>"; };
+		2BB598D22B0CD633006BD157 /* NewLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLine.swift; sourceTree = "<group>"; };
+		2BD125F62B0F754800E38870 /* MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
 		2BF79D5F2A29EA0C006209C8 /* MyXCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyXCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BF79D622A29EA0C006209C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2BF79D642A29EA0C006209C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2BF79D662A29EA0D006209C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BF79D692A29EA0D006209C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2BF79D6B2A29EA0D006209C8 /* MyXCode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyXCode.entitlements; sourceTree = "<group>"; };
@@ -82,14 +96,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BF79D782A29EA81006209C8 /* Cocoa.framework in Frameworks */,
 				2BF79D892A29EB17006209C8 /* XcodeKit.framework in Frameworks */,
+				2B7F56542B0CA1DF00DB8D85 /* SwiftFormat in Frameworks */,
+				2B7F56502B0C9B5F00DB8D85 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BAE639F2B14B4B8009E7068 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				2BAE63A02B14B4D3009E7068 /* Toast.swift */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		2BB598D42B0CD645006BD157 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				2BB598D02B0CD60A006BD157 /* PrettyFunc.swift */,
+				2BB598D22B0CD633006BD157 /* NewLine.swift */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
 		2BF79D562A29EA0C006209C8 = {
 			isa = PBXGroup;
 			children = (
@@ -112,11 +144,15 @@
 		2BF79D612A29EA0C006209C8 /* MyXCode */ = {
 			isa = PBXGroup;
 			children = (
+				2BAE639F2B14B4B8009E7068 /* Toast */,
 				2BF79D622A29EA0C006209C8 /* AppDelegate.swift */,
-				2BF79D642A29EA0C006209C8 /* ViewController.swift */,
 				2BF79D662A29EA0D006209C8 /* Assets.xcassets */,
 				2BF79D682A29EA0D006209C8 /* Main.storyboard */,
 				2BF79D6B2A29EA0D006209C8 /* MyXCode.entitlements */,
+				2BD125F62B0F754800E38870 /* MainApp.swift */,
+				2BAE5F6F2B148B2E009E7068 /* ConstValue.swift */,
+				2BAE639B2B14946A009E7068 /* PluginSidebarViewController.swift */,
+				2BAE639D2B14948F009E7068 /* PluginConfigViewController.swift */,
 			);
 			path = MyXCode;
 			sourceTree = "<group>";
@@ -137,6 +173,7 @@
 				2BF79D7E2A29EA81006209C8 /* SourceEditorCommand.swift */,
 				2BF79D802A29EA81006209C8 /* Info.plist */,
 				2BF79D812A29EA81006209C8 /* MyXCodeExt.entitlements */,
+				2BB598D42B0CD645006BD157 /* Plugins */,
 			);
 			path = MyXCodeExt;
 			sourceTree = "<group>";
@@ -177,6 +214,9 @@
 			dependencies = (
 			);
 			name = MyXCodeExt;
+			packageProductDependencies = (
+				2B7F56532B0CA1DF00DB8D85 /* SwiftFormat */,
+			);
 			productName = MyXCodeExt;
 			productReference = 2BF79D752A29EA81006209C8 /* MyXCodeExt.appex */;
 			productType = "com.apple.product-type.xcode-extension";
@@ -189,7 +229,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					2BF79D5E2A29EA0C006209C8 = {
 						CreatedOnToolsVersion = 14.2;
@@ -208,6 +248,9 @@
 				Base,
 			);
 			mainGroup = 2BF79D562A29EA0C006209C8;
+			packageReferences = (
+				2BA9DAEF2B07506200696B5E /* XCRemoteSwiftPackageReference "swift-format" */,
+			);
 			productRefGroup = 2BF79D602A29EA0C006209C8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -242,8 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BF79D652A29EA0C006209C8 /* ViewController.swift in Sources */,
+				2BAE639C2B14946A009E7068 /* PluginSidebarViewController.swift in Sources */,
+				2BAE63A12B14B4D3009E7068 /* Toast.swift in Sources */,
+				2BAE639E2B14948F009E7068 /* PluginConfigViewController.swift in Sources */,
+				2BD125F72B0F754800E38870 /* MainApp.swift in Sources */,
 				2BF79D632A29EA0C006209C8 /* AppDelegate.swift in Sources */,
+				2BAE5F702B148B2E009E7068 /* ConstValue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +300,9 @@
 			files = (
 				2BF79D7D2A29EA81006209C8 /* SourceEditorExtension.swift in Sources */,
 				2BF79D7F2A29EA81006209C8 /* SourceEditorCommand.swift in Sources */,
+				2BB598D32B0CD633006BD157 /* NewLine.swift in Sources */,
+				2BAE5F712B148B2E009E7068 /* ConstValue.swift in Sources */,
+				2BB598D12B0CD60A006BD157 /* PrettyFunc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,9 +361,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -371,9 +423,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -398,9 +452,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MyXCode/MyXCode.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = S5KT549QVB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -427,9 +483,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MyXCode/MyXCode.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = S5KT549QVB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -453,9 +511,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = MyXCodeExt/MyXCodeExt.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = S5KT549QVB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -480,9 +540,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = MyXCodeExt/MyXCodeExt.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = S5KT549QVB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -534,6 +596,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2BA9DAEF2B07506200696B5E /* XCRemoteSwiftPackageReference "swift-format" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-format";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 509.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2B7F56532B0CA1DF00DB8D85 /* SwiftFormat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BA9DAEF2B07506200696B5E /* XCRemoteSwiftPackageReference "swift-format" */;
+			productName = SwiftFormat;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2BF79D572A29EA0C006209C8 /* Project object */;
 }
